@@ -1,0 +1,58 @@
+.header{
+  background-color: rgb(46,48,95);
+}
+.btnHeader{
+  background-color: rgb(46,48,95);
+  color: #fff;
+  transition: background-color .1s;
+  display: inline-block;
+  border: none;
+  padding: 8px 10px;
+  position: relative;
+}
+
+.btnHeader:hover{
+  background-color: rgb(238,64,86);
+}
+
+.btn{
+  background-color: rgb(46,48,95);
+  color: #fff;
+  transition: background-color .2s;
+  display: inline-block;
+  border: none;
+  padding: 3px 10px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.btn-red{
+  background-color: rgb(238,64,86);
+  color: #fff;
+  transition: background-color .2s;
+  display: inline-block;
+  border: none;
+  padding: 3px 10px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.btn:hover, .btn-red:hover{
+  background-color: rgb(170, 74, 155);
+}
+
+.login{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  text-decoration: none
+}
+
+select, a, input, body, .btnHeader, .btn, .btn-red {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+}
